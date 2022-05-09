@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <span>Daniel Matcha : Lab 8</span>
+        </div>
+
+        <div class="min-wrapper">
+
+            <div class="form-container">
+                <div class="inner-form">
+                    <form class="main_form" method="GET">
+                        <strong><label for="rname">Restaurant Name</label><br></strong>
+                        <input type="text" id="rname"> <br>
+
+                        <strong><label for="pref">Food Type</label><br></strong>
+                        <input type="text" id="pref"><br>
+
+                        <strong><p>Veggie or Vegan?</p></strong>
+
+                        <label for="radio1">Yes</label>
+                        <input type="radio" id="radio1" name="radio">
+
+                        <label for="radio2">No</label>
+                        <input type="radio" id="radio2" name="radio">
+                        <br>
+                        <button type="submit" id="btn">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+
+            <div class="outer">
+                <div class="map-side">
+                    <div id="map"></div>
+                </div>
+                <div class="side-container">
+                    <ul id="resto-list">
+                        <h4>Restaurants List</h4>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

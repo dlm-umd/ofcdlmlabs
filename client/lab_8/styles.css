@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ‘Segoe UI’, Candara, ‘Bitstream Vera Sans’, ‘DejaVu Sans’, ‘Bitsream Vera Sans’, ‘Trebuchet MS’, Verdana, ‘Verdana Ref’, sans-serif;
+    background-color: dodgerblue;
+}
+
+
+/* Page Layout */
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 960px;
+    margin-top: 25px;
+    background-color: gray;
+    width: 100%;
+    padding: 22px 0 22px 0;
+    border-radius: 8px;
+}
+
+.container span {
+    margin-left: 15px;
+}
+
+.inner-form {
+    padding: 40px;
+}
+
+#fname,
+#pref {
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+
+.inner-form p {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#btn {
+    margin-top: 14px;
+    padding: 10px 14px 10px 14px;
+    background-color: rgb(91, 193, 103);
+    border: none;
+    font-size: 14px;
+    border-radius: 4px;
+    color: white;
+}
+
+.min-wrapper {
+    display: flex;
+    max-width: 960px;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 8px;
+    margin: 6px;
+    align-self: flex-start;
+}
+
+.side-container {
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    width: 98%;
+    margin: 6px;
+    align-self: flex-start;
+}
+
+.map-side {
+    padding: 20px;
+    background-color: white;
+    border-radius: 6px;
+    width: 98%;
+    margin: 6px;
+    align-self: flex-start;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 6px;
+}
+
+.outer {
+    display: flex;
+    flex-direction: column;
+    flex: 12;
+}
+
+#map {
+    height: 180px;
+}
